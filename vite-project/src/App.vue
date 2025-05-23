@@ -3,6 +3,8 @@
 import Encabezado from "./components/Encabezado.vue";
 import Contenido from "./components/Contenido.vue";
 import PieDePagina from "./components/PieDePagina.vue";
+import Comunidad from "./components/Comunidad.vue";
+import Eventos from "./components/Eventos.vue";
 
 </script>
 
@@ -25,6 +27,8 @@ import PieDePagina from "./components/PieDePagina.vue";
 </body>
 </html>
   <Contenido />
+  <Comunidad />
+  <Eventos />
   <PieDePagina />
   
 </template>

@@ -3,3 +3,33 @@ body{
   padding: 0;
   
 }
+.community {
+  background: #f8f9fa;
+}
+.community__row {
+  align-items: center;
+}
+.community__img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+.community__dots {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+.community__dot {
+  width: 10px;
+  height: 10px;
+  background: #0d6efd;
+  border-radius: 50%;
+}
+
+.events .card {
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+}
+.events .card + .card {
+  margin-top: 1rem;
+}
