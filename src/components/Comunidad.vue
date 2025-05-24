@@ -1,5 +1,5 @@
 <template>
-  <section class="community py-5">
+  <section class="community py-5" style="padding-block:100px !important;">
     <div class="container">
       <div class="row community__row">
         <div class="col-md-6">
@@ -8,12 +8,16 @@
           <button class="btn btn-primary">Únete a la comunidad</button>
         </div>
         <div class="col-md-6 d-flex align-items-center justify-content-end">
-          <img src="../assets/images/community.jpg" class="community__img" alt="Personas conversando" />
           <div class="community__dots">
             <span v-for="n in 4" :key="n" class="community__dot"></span>
           </div>
+          <img src="../assets/imagencomunidad.jpg" class="community__img" alt="Personas conversando" />
+          
         </div>
       </div>
     </div>
   </section>
 </template>
+
+
+

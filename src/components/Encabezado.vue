@@ -1,11 +1,12 @@
-import nidoLogo from '../assets/nido-logo.png'<template>
+
+  <template>
   <!-- Esqueleto de la página -->
   <header class="bg-light border-bottom navbar-fixed" :class="{ 'navbar-hidden': !isVisible }">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light">
         <!-- Logo -->
         <a class="navbar-brand ms-3" href="#">
-          <img :src="nidoLogo" alt="NIDO" height="40" class="d-inline-block align-text-top" />
+          <img src="../assets/logoblanconido.jpg" alt="NIDO" height="100px"width="100%" class="d-inline-block align-text-top" />
         </a>
 
         <!-- Mobile Toggle Button -->
