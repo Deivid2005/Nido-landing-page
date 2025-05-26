@@ -1,11 +1,11 @@
 <template>
   <!-- Esqueleto de la página -->
-  <header class="bg-light border-bottom navbar-fixed" :class="{ 'navbar-hidden': !isVisible }">
+  <header class="bg-light border-bottom navbar-fixed">
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <!-- Logo -->
         <a class="navbar-brand ms-3" href="#">
-          <img src="/img/logoNIdo2.jpeg" alt="Logo Nido" height="40" class="d-inline-block align-text-top" />
+          <img src="/img/logoNIdo2.jpeg" alt="Logo Nido" height="70" class="d-inline-block align-text-top" />
         </a>
 
         <!-- Mobile Toggle Button -->
